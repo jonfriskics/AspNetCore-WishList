@@ -40,7 +40,7 @@ namespace WishList.Controllers
         }
 
         public IActionResult Delete(int Id) {
-            
+            return RedirectToAction("Index");
         }
     }
 }
